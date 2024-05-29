@@ -4,6 +4,7 @@ import logo2 from "/logo2.jpg";
 import { FaPlay } from "react-icons/fa";
 import { IoIosInformationCircleOutline } from "react-icons/io";
 import Row from "../row/Row";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   const [UpcomingMovies, setUpcomingMovies] = useState([]);
@@ -82,6 +83,9 @@ const Home = () => {
 
   return (
     <section className="home">
+      <Helmet>
+        <title>Home - Netflix</title>
+      </Helmet>
       <div className="banner">
         <div>
           <img src={logo2} alt="logo2" />

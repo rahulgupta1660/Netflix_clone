@@ -1,0 +1,42 @@
+.footer{
+    color: #fff;
+
+    .links{
+        display: flex;
+        gap:20px;
+    }
+
+    a{
+        color: #fff;
+    }
+
+    .icon{
+        font-size: 1.5rem;
+
+    }
+    
+    ul{
+     padding: 50px;
+     list-style: none;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 12px 0px;
+     font-size: 0.8em;
+     opacity: 0.5;
+
+     li{
+        flex: 0 0 25%;
+     }
+    }
+
+    span{
+        font-size: 0.8em;
+        opacity: 0.5;
+        border: 1px solid #fff;
+        padding: 5px;
+    }
+
+}
+
+
+

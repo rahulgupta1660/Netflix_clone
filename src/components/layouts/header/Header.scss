@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding: 15px 50px;
+
+    > div{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        a{
+            color: #fff;
+            transition: 0.5s;
+            opacity: 0.9;
+
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+
+        a.active{
+            opacity: 1;
+        }
+    }
+
+    div img{
+        width: 8%;
+    }
+
+    .navigation{
+        display: flex;
+        gap: 15px;
+        font-size: 0.9rem;
+    }
+
+    .search a{
+        color: #fff;
+    }
+}
+
