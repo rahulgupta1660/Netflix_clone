@@ -63,6 +63,7 @@ const Footer = () => {
       <span>
         <Link>Service Code</Link>
       </span>
+      <p>&copy; 1997-2024 Netflix, Inc</p>
     </footer>
   );
 };
